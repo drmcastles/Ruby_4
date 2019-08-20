@@ -363,49 +363,7 @@ class Main
   def station_info(station)
     puts "Station: #{station.name}"
   end
-
-  # def seed
-  #   a = Station.new("a")
-  #   b = Station.new("b")
-  #   c = Station.new("c")
-  #   d = Station.new("d")
-  #   e = Station.new("e")
-  #   f = Station.new("f")
-  #   g = Station.new("g")
-  #   h = Station.new("h")
-  #   stations << a << b << c << d << e << f << g << h
-
-  #   train1 = CargoTrain.new("train1")
-  #   train2 = PassengerTrain.new("train2")
-  #   train3 = CargoTrain.new("train3")
-  #   train4 = PassengerTrain.new("train4")
-  #   trains << train1 << train2 << train3 << train4
-
-  #   route1 = Route.new(a, d)
-  #   route2 = Route.new(e, h)
-  #   routes << route1 << route2
-
-  #   #delete_route_station
-  #   #train menu test
-  #   #create_station
-  #   #show_array(stations)
-  #   #trains_on_station
-
-  #   # station menu test
-  #   # create_train
-  #   # assign_train
-  #   # add_carriage
-  #   # delete_carriage
-  #   # train_go
-
-  #   # station menu test
-  #   # create_route
-  #   # add_route_station
-  #   # delete_route_station
-  #   # show_array(routes)
-  # end
 end
 
 main = Main.new
 main.main_menu
-#main.seed
